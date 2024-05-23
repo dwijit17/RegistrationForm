@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.form-container{
+    border: 2px solid rgb(200, 120, 17);
+    width: 50vw;
+    height: 70vh;
+    border-radius: 10px;
+}
+.input-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20%
+}
+.form-item{
+    padding: 10px;
+    margin: 10px;
+}
+input{
+    background:rgb(201, 225, 223);
+    border-radius: 10px;
+    width: 220px;
+}
